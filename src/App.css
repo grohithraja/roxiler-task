@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
 }
 
 .App-logo {
@@ -35,4 +41,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table{
+  border:1px solid black
+}
+th{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+td {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.tb1{
+  text-align: center;
 }
