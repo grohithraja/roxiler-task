@@ -1,6 +1,6 @@
 const Table = (props) => {
     const {eachData} = props
-    const {id, title, price,description, category,image,sold} eachData
+    const {id, title, price,description, category,sold} = eachData
     return <tr>
     <td>{id}</td>
     <td>{title}</td>
